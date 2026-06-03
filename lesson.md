@@ -65,6 +65,10 @@ packages:
 
 Run `dbt deps` to install the package. Refer to the [documentation](https://hub.getdbt.com/dbt-labs/dbt_utils/latest/) for supported tests.
 
+```bash
+dbt deps
+```
+
 Let's add some additional tests to the `fact_sales` model at the end of `models/schema.yml`:
 
 ```yml
